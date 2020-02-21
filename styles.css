@@ -2,3 +2,8 @@
 .container {
   background: red;
 }
+
+.header-bottom ul li {
+  display: inline;
+}
+
