@@ -14,74 +14,58 @@
 
     <title>Newsweek with top stories</title>
   </head>
-  <body class="bg-gray">
+  <body>
     <!-- header-container -->
-    <header>
-      <div class="main-header p=15px">
-        <div
-          class="container d-flex flex-row justify-content-between align-items-end"
-        >
-          <p class="header-date">Fri, Feb 21, 2020</p>
-          <h1>Newsweek</h1>
-          <ul class="d-flex flex-row">
-            <li class="sign-in"><p>SIGN-IN</p></li>
-            <li>
-              <button type="button" class="btn btn-light">SUBSCRIBE</button>
-            </li>
-            <li class="menu"><i class="fa fa-bars"></i></li>
-          </ul>
-        </div>
-        <nav class="navbar navbar-expand-lg">
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">U.S.</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">World</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Business</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Tech $ Science</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Culture</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Newsgeek</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sports</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Health</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">The Debate</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Vantage</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Weather</a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >Search</a
-                >
-              </li>
-            </ul>
+    <div class="container">
+      <header class="page-header">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-4 pt-1">
+            <a class="header-date" href="#">Thur, Feb 20, 2020</a>
           </div>
-        </nav>
-      </div>
-    </header>
-    <main></main>
-    <footer></footer>
+          <div class="col-4 text-center">
+            <a class="header-logo text-dark" href="#">Newsweek</a>
+          </div>
+          <form class="form-inline my-2 my-lg-0">
+            <button class=" Sign-in btn btn-outline-success my-2 my-sm-0" type="submit">SIGN IN</button>
+            <input class="subscribe mr-sm-2" type="search" placeholder="Subscribe" aria-label="Subscribe">  
+          </form>
+          <svg class="bi bi-chevron-right" width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z" clip-rule="evenodd"></path>
+          </svg>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <ul class="h-items d-flex flex-row justify-content-between align-items-end">
+            <li><a href="#">U.S. |</a></li>
+            <li><a href="#">World |</a></li>
+            <li><a href="#">Business |</a></li>
+            <li><a href="#">Tech & Science |</a></li>
+            <li><a href="#">Culture |</a></li>
+            <li><a href="#">Newsgeek |</a></li>
+            <li><a href="#">Sports |</a></li>
+            <li><a href="#">Health |</a></li>
+            <li><a href="#">The Debate |</a></li>
+            <li><a href="#">Vantage |</a></li>
+            <li><a href="#">Weather </a></li>
+            <li class="search"><input type="search" placeholder="Search"><i class="fa fa-search"></i>
+            </i></li>
+          </ul>
+        </div>  
+      <main class="container main">
+          <div class="row align-items-start">
+            <div class="col">
+              FEATURED STORIES
+            </div>
+            <div class="col">
+              TOP STORY
+            </div>
+            <div class="col">
+              OPINION
+            </div>
+          </div>
+      </main>
+      <footer></footer>
+      </header>
+      
   </body>
 </html>
