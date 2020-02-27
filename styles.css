@@ -16,10 +16,18 @@ body {
   color: white;
 }
 
-.nav-bar a {
+.nav-bar ul li {
   color: black;
 }
 
+.news-responsive {
+  width: 100%;
+  height: 100%;
+}
+
+.top-story {
+  padding-left: 15px;
+}
 
 
 
