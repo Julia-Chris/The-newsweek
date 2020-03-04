@@ -21,7 +21,16 @@
   font-weight: 300;
   font-style: normal;
 }
-/* 
+/* my style */
+
+body {
+  min-width: 320px;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+}
+
 .page-header {
   z-index: 10;
 }
@@ -69,4 +78,4 @@
   padding: 0;
   margin: 0;
   display: block;
-} */
+}
