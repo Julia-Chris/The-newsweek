@@ -70,3 +70,29 @@ body {
   display: block;
 }
 
+/* .h-navbar .navbar-items {
+  list-style-type: none;
+}
+
+.h-navbar .navbar-items li {
+  padding: 0;
+  margin: 0;
+  display: block;
+} */
+
+main {
+  padding-top: 20px;
+  background-color: white;
+}
+
+.container-fluid {
+  max-width: 1310px;
+  padding-right: 20px;
+  padding-left: 20px;
+  /* overflow: hidden; */
+}
+
+.col1 .wrap-col {
+  padding-right: 15px;
+  padding-left: 15px;
+}
