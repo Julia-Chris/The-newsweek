@@ -1,5 +1,20 @@
-html,
-body,
-header {
-  100%
+/* 
+.navbar-brand {
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+top: 10px;
+} */
+
+.weather-icon {
+  width: 20px;
+}
+
+.header-logo .logo {
+  font-size: 10px;
+}
+
+#Layer_1 {
+  width: 5px;
+  color: red;
 }
