@@ -20,6 +20,10 @@ top: 10px;
   color: red;
 }
 
+.h-subscribe {
+  background-color: white;
+}
+
 .main-title {
   text-transform: uppercase;
 }

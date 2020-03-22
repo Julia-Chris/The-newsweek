@@ -20,6 +20,7 @@
   </head>
 
   <body>
+    
     <header class="page-header bg-danger col-12 col-xl-8 offset-xl-2">
       <div class="row">
         <div class="h-weatherday d-flex flex-column">
@@ -43,43 +44,10 @@
                     class="weather-arrow"/></picture></span
             ></a>
           </div>
-          <div class="h-date">Thur, Feb 20, 2020</div>
+          <div class="col-md-3 text-white">Thur, Feb 20, 2020</div>
         </div>
         <!-- <h1>Newsweek</h1> -->
-        <div class="header-signin d-flex col-md-3 justify-content-end">
-          <a href="#" class="h-signin text-white pr-2">sign in</a>
-          <a href="#" class="h-subscribe text-danger bg-light"
-            >subscribe
-            <svg
-              version="1.1"
-              id="Layer_1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              x="0px"
-              y="0px"
-              viewBox="0 0 8 14"
-              style="enable-background: new 0 0 8 14;"
-              xml:space="preserve"
-            >
-              <g id="arrow-right">
-                <defs>
-                  <rect id="SVGID_1_" width="8" height="14"></rect>
-                </defs>
-                <clipPath id="SVGID_2_">
-                  <use xlink:href="#SVGID_1_" style="overflow: visible;"></use>
-                </clipPath>
-                <g id="Shape_1" class="st0">
-                  <g>
-                    <polygon
-                      class="st1"
-                      points="8,7 1.1,0 0,1.1 5.9,7 0,12.9 1.1,14 8,7 8,7	"
-                    ></polygon>
-                  </g>
-                </g>
-              </g>
-            </svg>
-          </a>
-        </div>
+        
 
         <div class="header-logo d-flex flex-column col-md-6">
           <a href="#" class="logo justify-content-center">
@@ -106,22 +74,45 @@
             <span></span>
           </span>
         </div>
+
+      <!-- sign -->
+
+      <div class="header-signin d-flex flex-column col-md-3 justify-content-end">
+        <a href="#" class="h-signin text-white pr-2">sign in</a>
+        <a href="#" class="h-subscribe text-danger"> subscribe
+          <svg
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 8 14"
+            style="enable-background: new 0 0 8 14;"
+            xml:space="preserve"
+          >
+            <g id="arrow-right">
+              <defs>
+                <rect id="SVGID_1_" width="8" height="14"></rect>
+              </defs>
+              <clipPath id="SVGID_2_">
+                <use xlink:href="#SVGID_1_" style="overflow: visible;"></use>
+              </clipPath>
+              <g id="Shape_1" class="st0">
+                <g>
+                  <polygon
+                    class="st1"
+                    points="8,7 1.1,0 0,1.1 5.9,7 0,12.9 1.1,14 8,7 8,7	"
+                  ></polygon>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </a>
+      </div>
       </div>
 
-      <nav class="h-navbar bg-white">
-        <div class="flex-col">
-          <form action="#" class="h-navbar-search-form">
-            <div class="search-form-inline d-flex justify-content-between">
-              <label for="search-input"></label>
-              <input
-                type="text"
-                id="search-input"
-                class="search-info"
-                placeholder="search"
-              />
-              <i></i>
-            </div>
-          </form>
+      <nav class="h-navbar bg-white d-flex">
 
           <ul class="navbar-items d-flex list-unstyled">
             <li><a href="#">U.S. </a></li>
@@ -136,9 +127,22 @@
             <li><a href="#">Vantage </a></li>
             <li><a href="#">Weather </a></li>
           </ul>
-        </div>
+
+          <form action="#" class="h-navbar-search-form ">
+            <div class="search-form">
+              <label for="search-input"></label>
+              <input
+                type="text"
+                id="search-input"
+                class="search-info"
+                placeholder="search"
+              />
+              <i></i>
+            </div>
+          </form>
       </nav>
     </header>
+  
 
     <!-- main content -->
 
@@ -639,31 +643,54 @@
         </div>
 
         <!--In The magazine -->
-        <div class="text-center bold"> IN THE Magazine
-        <div class="row">
+        <div class="text-center bold"> <i class="fab fa-neos bg-danger text-white"></i> <span class="magazine-h">IN THE MAGAZINE</span> 
+          <div class="col-12 container-fluid p-0">
+          </div>
+        </div>
+        <!-- magazine columns -->
+        <div class="row container">
           <div class="col-md-3 mt-4">
             <article class="row">
               <div class="container-fluid">
                 <img src="https://d.newsweek.com/en/full/1574205/march-20-27-2020-cover.jpg" alt="magazine-nw" class="w-100">
                 <span>MARCH 27 ISSUE</span>
               </div>
-              <a href="SEE ALL FEATURES >">
+              <a href="#" id="cover-more" class="container-fluid text-center py-2"> 
+                SEE ALL FEATURES >
               </a>
             </article> 
           </div>
 
-        </div>
+    
+           <article class="col-md-3">
+             <img src="Assets/nw-images/mag1-magazine.jpg" alt="Health" class="w-100 mb-2 py-4">
+             <span class="subtitle-red">FEATURES</span> <span class="subtitle-white">HEALTH</span>
+             <h3>Is Bernie Sanders right about Medicare for all?</h3>
+           </article>
 
-        <div class="col-md-9 mt-4">
+           <article class="col-md-3">
+            <img src="Assets/nw-images/mag1-magazine.jpg" alt="Health" class="w-100 mb-2 py-4">>
+            <span class="subtitle-red">FEATURES</span> <span class="subtitle-white">HEALTH</span>
+            <h3>Is Bernie Sanders right about Medicare for all?</h3>
+          </article>
 
-          
-        </div>
+          <article class="col-md-3">
+            <img src="Assets/nw-images/mag1-magazine.jpg" alt="Health" class="w-100 mb-2 py-4">>
+            <span class="subtitle-red">FEATURES</span> <span class="subtitle-white">HEALTH</span>
+            <h3>Is Bernie Sanders right about Medicare for all?</h3>
+          </article>
 
       </div>
+
+          
+        
+
+  
 
       
 
       </div>
+       <!-- end main container -->
       
 
   </body>
