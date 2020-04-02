@@ -137,6 +137,17 @@ top: 10px;
   color: #f72210;
 }
 
+/* newsletter */
+
+.subscriber-container {
+  min-height: 290px;
+}
+
+.sub-magazine {
+  height: 240px;
+}
+
+
 
 
 
