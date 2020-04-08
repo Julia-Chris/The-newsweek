@@ -6,13 +6,28 @@ transform: translateX(-50%);
 top: 10px;
 } */
 
+body {
+background-color: #f4f5f6;
+}
+
+header {
+  margin-bottom: 3px;
+  height: 150px;
+
+.h-weather {
+  background-color: #ef4e17;
+  align-items: flex-end;
+  height: 95px;
+}
 
 .weather-icon {
   width: 20px;
 }
 
-.header-logo .logo {
+#nw-logo {
   font-size: 10px;
+  background-color: #f72210;
+  top: -60px;
 }
 
 #Layer_1 {
@@ -22,6 +37,15 @@ top: 10px;
 
 .h-subscribe {
   background-color: white;
+}
+
+.h-navbar .navbar-items li {
+  flex-grow: 1;
+  display: inline-block;
+  text-align: center;
+  border-left-width: 1px;
+  border-left-style: solid;
+  list-style: none;
 }
 
 .main-title {
@@ -147,12 +171,17 @@ top: 10px;
   height: 240px;
 }
 
+/* footer */
+.copyright {
+  align-items: flex-end;
+}
 
+.copyright > span {
+  margin-bottom: 10px;
+}
 
-
-
-
-
-
-
-
+.nw-footer > li {
+  display: inline;
+  margin-left: 10px;
+  font-size: 20px;
+}
